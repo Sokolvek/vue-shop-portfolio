@@ -1,0 +1,36 @@
+.felimotion-top{
+    filter: blur(5px);
+    opacity: 0;
+    transform: translateY(100%);    
+}
+
+.felimotion-bottom{
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+.felimotion-left{
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.felimotion-right{
+    opacity: 0;
+    transform: translateX(100%);   
+}
+
+.felimotion-appearance{
+    filter: blur(5px);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    opacity: 0;
+}
+
+
+
+.felimotion-reset{
+    filter: blur(0px);
+    transition: 2s;
+    text-shadow: 0 0 0px rgba(0, 0, 0, 0.5); 
+    transform: translate(0, 0);
+    opacity: 1;
+}
