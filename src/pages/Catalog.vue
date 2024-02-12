@@ -4,7 +4,9 @@
 
     <ul class="product-list" felimotion="appearance">
       <li v-for="(product, i) in displayedProducts" @click="gotoProductPage(product.id)" :key="i" class="product-item">
-        <img :src="product.img" alt="">
+        <!-- <img :src="product.img" alt="">
+         -->
+         <img src="../assets/imgs/join-us-3.png" alt="">
         <div class="product-info">
             <h3 class="product-name">{{ product.name }}</h3>
             <span class="product-price">{{ product.price }}</span>
@@ -84,6 +86,14 @@ watchEffect(() => {
 </script>
 
 <style scoped>
+
+img{
+  max-width: 300px;
+}
+
+/* h3,span{
+  color: white;
+} */
 
 .left-arrow{
   position: absolute;

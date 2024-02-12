@@ -1,6 +1,8 @@
 <template>
   <section class="container" v-if="product">
-    <img :src="product.img" alt="" />
+    <!-- <img :src="product.img" alt="" />
+     -->
+     <img src="../assets/imgs/join-us-img-2.png" alt="">
     <article>
       <h2>{{ product.name }}</h2>
       <p>

@@ -3,7 +3,7 @@
         <div class="empty" ></div>
         <article felimotion="appearance">
             <h2>Встречайте весну<br> вместе с нами</h2>
-            <p>Попробуйте новую коллекцию ухаживающих средств для лица с SPF защитой</p>
+            <p>Мы разработали уникальные продукты, которые помогут вам чувствовать себя свежо и комфортно, обеспечивая одновременно надежную защиту.</p>
             <FButton path="/">Подробнее</FButton>
         </article>
     </section>    
@@ -17,7 +17,7 @@ import FButton from './FButton.vue';
 
 <style scoped>
 .seasonal-product{
-    background-image: url("../assets/imgs/seasonal-product-bg.png");
+    background-image: url("../assets/imgs/toilet-paper-background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

@@ -1,12 +1,12 @@
 <template>
   <section class="join-us container">
     <article class="imgs-wrapper" felimotion="left">
-      <img src="../assets/imgs/join-us-img-1.png" alt="" />
-      <img src="../assets/imgs/join-us-img-2.png" alt="" />
-      <img src="../assets/imgs/join-us-img-3.png" alt="" />
-      <img src="../assets/imgs/join-us-img-4.png" alt="" />
-      <img src="../assets/imgs/join-us-img-5.png" alt="" />
-      <img src="../assets/imgs/join-us-img-6.png" alt="" />
+      <img src="../assets/imgs/join-us-1.png" alt="" />
+      <img src="../assets/imgs/join-us-2.png" alt="" />
+      <img src="../assets/imgs/join-us-3.png" alt="" />
+      <img src="../assets/imgs/join-us-4.png" alt="" />
+      <img src="../assets/imgs/join-us-5.png" alt="" />
+      <img src="../assets/imgs/join-us-6.png" alt="" />
     </article>
     <div class="text-wrapper" felimotion="appearance">
       <h2>Присоединяйтесь к нам</h2>
@@ -24,6 +24,11 @@ import FButton from './FButton.vue';
 </script>
 
 <style scoped>
+
+img{
+  max-width: 233px;
+  height: 100%;
+}
 .join-us {
   display: flex;
 }
