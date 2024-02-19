@@ -9,7 +9,7 @@ export default createRouter({
     history:createWebHistory(),
     routes:[
         {
-            path:"/",
+            path:"/vue-shop-portfolio",
             component:index
         },
         {
