@@ -2,6 +2,7 @@
 <template>
    <div>
     <Header />
+    <Cart />
     <router-view v-slot="{ Component }">
       <transition name="fade" mode="out-in">
         <component :is="Component"/>
@@ -14,7 +15,7 @@
   <script setup>
   import { onMounted } from 'vue';
 import Header from './components/layouts/Header.vue';
-
+import Cart from './components/Cart.vue';
 
 onMounted(() => {
   // felimationHandler()

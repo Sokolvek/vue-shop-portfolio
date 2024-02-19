@@ -6,6 +6,7 @@ export const useCounterStore = defineStore("counter", {
   state: () => ({
     sum: 0,
     cart: [],
+    cartPopup:false
   }),
   getters: {},
   actions: {

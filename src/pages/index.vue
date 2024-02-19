@@ -3,20 +3,21 @@
     <section class="main-section">
       <img
         class="main-img"
-        src="../assets/imgs/toilet-paper-1.png"
+        src="../assets/imgs/main-img-1.png"
         alt=""
         felimotion="top"
       />
       <div felimotion="appearance">
         <h1 class="text-center">MAROON</h1>
         <p class="text-center">
-          Натуральная туалетная бумага
+          Натуральная косметика <br/>
+для бережного ухода за кожей
         </p>
         <FButton class="m-auto" path="/catalog">Подробнее</FButton>
       </div>
       <img
         class="main-img"
-        src="../assets/imgs/toilet-paper-2.png"
+        src="../assets/imgs/main-img-2.png"
         alt=""
         felimotion="top"
       />
@@ -37,7 +38,7 @@
         <FButton path="#">Заполнить анкету</FButton>
       </article>
       <img
-        src="../assets/imgs/individual-paper.png"
+        src="../assets/imgs/individual-img.png"
         alt=""
         felimotion="appearance"
       />
@@ -49,7 +50,7 @@
       </h2>
       <button>Наша история</button>
     </section> -->
-    <Accordion />
+    <!-- <Accordion /> -->
     <JoinUs />
   </div>
 </template>
@@ -225,11 +226,13 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   background: #f4f1ed;
+  gap: 10px;
   padding: 60px 120px;
 }
 
+
 .individual > img {
-  max-width: 50%;
+  max-width: 60%;
 }
 .our-history {
   background-image: url("@/assets/imgs/our-history-bg.jpg");
@@ -266,6 +269,12 @@ h2 {
 
   .individual > img {
     max-width: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .individual > article{
+    padding: 40px 10px;
   }
 }
 </style>

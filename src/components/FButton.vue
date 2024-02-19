@@ -1,8 +1,8 @@
 <template>
     <router-link :to="prop.path">
-        <!-- <button class="f-btn">
+        <button class="f-btn">
             <slot></slot>
-        </button> -->
+        </button>
     </router-link>
 </template>
 

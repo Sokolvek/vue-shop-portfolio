@@ -17,7 +17,7 @@ import FButton from './FButton.vue';
 
 <style scoped>
 .seasonal-product{
-    background-image: url("../assets/imgs/toilet-paper-background.jpg");
+    background-image: url("../assets/imgs/seasonal-product-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
