@@ -3,7 +3,7 @@
         <nav>
             <ul class="nav-list">
                 <li class="nav-item">
-                    <router-link to="/">
+                    <router-link to="/vue-shop-portfolio">
                         <span>MAROON</span>
                     </router-link>
                 </li>
